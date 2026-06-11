@@ -1,0 +1,31 @@
+*{
+    background-color: rgb(255, 255, 255); 
+}
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-container img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    background: none;
+}
+
+.register-form{
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 5%;
+    width: 300px ;
+    min-width: 300px;
+    background: white;
+}
+
+
+

@@ -1,0 +1,32 @@
+const express = require('express');
+const dotenv = require('dotenv');
+const connectDB = require('./config/db');
+const morgan = require('morgan');
+
+//dotenv config
+dotenv.config();
+
+//mongodb connection
+connectDB();
+
+//rest object
+const app = express();
+
+//middlewares
+app.use(express.json());
+app.use(morgan('dev'));
+
+//routes
+app.get('/', (req, res) => {
+    res.status(200).send({
+        message: "server running",
+    });
+});
+
+//port
+const port = process.env.PORT || 8080;
+
+//listen port
+app.listen(port, () => {
+    console.log(`Server Running in ${process.env.NODE_MODE} Mode on port ${port}`);
+});
