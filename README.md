@@ -1,8 +1,8 @@
-# Prescripto - Digital Appointment Management System
+# Prescripto - Doctor Appointment Booking Portal
 
 ## 📖 Introduction
 
-Prescripto is a digital appointment management system designed to streamline the process of booking, managing, and accessing healthcare appointments. Traditional paper-based appointment systems often lead to scheduling conflicts, loss of records, and inconvenience for both doctors and patients. Prescripto addresses these challenges by providing a secure, efficient, and user-friendly platform for healthcare appointment management.
+Prescripto is a Doctor Appointment Booking Portal designed to streamline the process of booking, managing, and accessing healthcare appointments. Traditional paper-based appointment systems often lead to scheduling conflicts, loss of records, and inconvenience for both doctors and patients. Prescripto addresses these challenges by providing a secure, efficient, and user-friendly platform for healthcare appointment management.
 
 The system enables doctors to manage their appointment schedules, patients to book and track appointments seamlessly, and administrators to oversee doctor availability and appointment records. By digitizing appointment management, Prescripto improves healthcare accessibility, reduces administrative workload, and enhances overall operational efficiency.
 
@@ -56,7 +56,6 @@ The system enables doctors to manage their appointment schedules, patients to bo
 ### Frontend
 
 * React.js
-* Next.js
 * Tailwind CSS
 
 ### Backend
